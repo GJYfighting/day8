@@ -1,0 +1,14 @@
+1789376295.8783181 [INFO] [launch]: All log files can be found below /home/ubuntu/ros2_ws/day8/runtime/logs/ros/2026-09-14-16-58-15-877461-ubuntu-virtual-machine-15843
+1789376295.8784194 [INFO] [launch]: Default logging verbosity is set to INFO
+1789376296.4668605 [INFO] [ign gazebo-1]: process started with pid [15880]
+1789376296.4670320 [INFO] [robot_state_publisher-2]: process started with pid [15883]
+1789376296.4670832 [INFO] [parameter_bridge-3]: process started with pid [15885]
+1789376296.4671197 [INFO] [parameter_bridge-4]: process started with pid [15887]
+1789376296.4671509 [INFO] [create-5]: process started with pid [15889]
+1789376296.9763236 [INFO] [create-5]: process has finished cleanly [pid 15889]
+1789376296.9789548 [INFO] [spawner-6]: process started with pid [15963]
+1789376299.6400013 [INFO] [spawner-6]: process has finished cleanly [pid 15963]
+1789376299.6419952 [INFO] [spawner-7]: process started with pid [16030]
+1789376301.1631601 [INFO] [spawner-7]: process has finished cleanly [pid 16030]
+1789376301.1651251 [INFO] [spawner-8]: process started with pid [16048]
+1789376303.0707521 [INFO] [spawner-8]: process has finished cleanly [pid 16048]

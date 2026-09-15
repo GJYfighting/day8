@@ -1,0 +1,1 @@
+[INFO] [1789376296.558288191] [day3_v5_gazebo_joint_bridge]: Creating GZ->ROS Bridge: [/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)

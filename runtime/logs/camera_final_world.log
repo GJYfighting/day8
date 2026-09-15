@@ -1,0 +1,197 @@
+[INFO] [launch]: All log files can be found below /home/ubuntu/ros2_ws/day8/runtime/logs/ros/2026-09-14-16-58-15-877461-ubuntu-virtual-machine-15843
+[INFO] [launch]: Default logging verbosity is set to INFO
+ign_args is deprecated, migrate to gz_args!
+[INFO] [ign gazebo-1]: process started with pid [15880]
+[INFO] [robot_state_publisher-2]: process started with pid [15883]
+[INFO] [parameter_bridge-3]: process started with pid [15885]
+[INFO] [parameter_bridge-4]: process started with pid [15887]
+[INFO] [create-5]: process started with pid [15889]
+[create-5] [ros_ign_gazebo] is deprecated! Redirecting to use [ros_gz_sim] instead!
+[create-5] 
+[robot_state_publisher-2] [0m[INFO] [1789376296.503719579] [robot_state_publisher]: got segment base_balck_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503804991] [robot_state_publisher]: got segment base_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503811813] [robot_state_publisher]: got segment base_screen_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503814273] [robot_state_publisher]: got segment base_white_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503816654] [robot_state_publisher]: got segment camera_calibration_hand[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503819059] [robot_state_publisher]: got segment camera_housing_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503821248] [robot_state_publisher]: got segment depth_cam_frame[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503823320] [robot_state_publisher]: got segment depth_cam_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503825471] [robot_state_publisher]: got segment depth_cam_optical_frame[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503827596] [robot_state_publisher]: got segment end_effector_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503829713] [robot_state_publisher]: got segment gripper_servo_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503832088] [robot_state_publisher]: got segment l_in_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503834852] [robot_state_publisher]: got segment l_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503836772] [robot_state_publisher]: got segment l_out_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503838662] [robot_state_publisher]: got segment link1[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503840618] [robot_state_publisher]: got segment link2[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503842508] [robot_state_publisher]: got segment link3[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503844319] [robot_state_publisher]: got segment link4[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503846147] [robot_state_publisher]: got segment link5[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503847984] [robot_state_publisher]: got segment r_in_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503849956] [robot_state_publisher]: got segment r_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503851836] [robot_state_publisher]: got segment r_out_link[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503853714] [robot_state_publisher]: got segment servo_link2[0m
+[robot_state_publisher-2] [0m[INFO] [1789376296.503855633] [robot_state_publisher]: got segment world[0m
+[create-5] [0m[INFO] [1789376296.543651092] [day3_v5_spawn_robot]: Requesting list of world names.[0m
+[parameter_bridge-4] [0m[INFO] [1789376296.558288191] [day3_v5_gazebo_joint_bridge]: Creating GZ->ROS Bridge: [/joint_states (ignition.msgs.Model) -> /joint_states (sensor_msgs/msg/JointState)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.559292352] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/clock (ignition.msgs.Clock) -> /clock (rosgraph_msgs/msg/Clock)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.561010545] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/depth_cam/rgbd/image (ignition.msgs.Image) -> /depth_cam/rgbd/image (sensor_msgs/msg/Image)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.563610528] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/depth_cam/rgbd/depth_image (ignition.msgs.Image) -> /depth_cam/rgbd/depth_image (sensor_msgs/msg/Image)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.564086230] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/depth_cam/rgbd/camera_info (ignition.msgs.CameraInfo) -> /depth_cam/rgbd/camera_info (sensor_msgs/msg/CameraInfo)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.564522354] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/world/robot_world/model/robot/link/l_out_link/sensor/day3_v5_left_contact/contact (ignition.msgs.Contacts) -> /world/robot_world/model/robot/link/l_out_link/sensor/day3_v5_left_contact/contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.565575620] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/world/robot_world/model/robot/link/r_out_link/sensor/day3_v5_right_contact/contact (ignition.msgs.Contacts) -> /world/robot_world/model/robot/link/r_out_link/sensor/day3_v5_right_contact/contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.565970567] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/world/robot_world/model/wood_block/link/block_link/sensor/day3_v5_block_contact/contact (ignition.msgs.Contacts) -> /world/robot_world/model/wood_block/link/block_link/sensor/day3_v5_block_contact/contact (ros_gz_interfaces/msg/Contacts)] (Lazy 0)[0m
+[parameter_bridge-3] [0m[INFO] [1789376296.566378778] [day3_v5_bridge]: Creating GZ->ROS Bridge: [/day3_v5/block/odometry (ignition.msgs.Odometry) -> /day3_v5/block/odometry (nav_msgs/msg/Odometry)] (Lazy 0)[0m
+[create-5] [0m[INFO] [1789376296.868918217] [day3_v5_spawn_robot]: Requested creation of entity.[0m
+[create-5] [0m[INFO] [1789376296.868975575] [day3_v5_spawn_robot]: OK creation of entity.[0m
+[INFO] [create-5]: process has finished cleanly [pid 15889]
+[INFO] [spawner-6]: process started with pid [15963]
+[spawner-6] [0m[INFO] [1789376297.819752069] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...[0m
+[ign gazebo-1] [0m[INFO] [1789376298.679631066] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_state_publisher[0m
+[ign gazebo-1] [0m[INFO] [1789376298.679665004] [GazeboSimROS2ControlPlugin]: robot_param_node is robot_description[0m
+[ign gazebo-1] [0m[INFO] [1789376298.705908846] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description[0m
+[ign gazebo-1] [0m[INFO] [1789376298.706856362] [gz_ros2_control]: Received URDF from param server[0m
+[ign gazebo-1] [0m[INFO] [1789376298.717909549] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['base_joint'] (Entity='65') is skipped.[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726024833] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726389228] [gz_ros2_control]: Loading joint: joint1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726410705] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726414859] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726420707] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726425716] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726428652] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726431177] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726433807] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726444317] [gz_ros2_control]: Loading joint: joint2[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726447052] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726449313] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726451472] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726454084] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726456497] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726458740] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726460877] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726466105] [gz_ros2_control]: Loading joint: joint3[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726468444] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726470610] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726472603] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726475010] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726477158] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726479890] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726482298] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726487063] [gz_ros2_control]: Loading joint: joint4[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726489393] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726491523] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726493488] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726496157] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726498237] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726500480] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726502563] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726507914] [gz_ros2_control]: Loading joint: joint5[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726510365] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726512500] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726514442] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726516826] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726518969] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726521081] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726523319] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726528822] [gz_ros2_control]: Loading joint: r_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726531409] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726533602] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726536464] [gz_ros2_control]: 			 found initial value: 1.300000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726538880] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726541540] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726543663] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726546095] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726548243] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726553635] [gz_ros2_control]: Loading joint: l_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726559255] [gz_ros2_control]: Joint 'l_joint'is mimicking joint 'r_joint' with multiplier: -1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726562195] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726564484] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726566442] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726568990] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726571089] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726575322] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726606379] [gz_ros2_control]: Loading joint: l_in_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726610337] [gz_ros2_control]: Joint 'l_in_joint'is mimicking joint 'r_joint' with multiplier: -1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726613024] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726615226] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726617439] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726620009] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726622182] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726624457] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726628189] [gz_ros2_control]: Loading joint: l_out_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726631234] [gz_ros2_control]: Joint 'l_out_joint'is mimicking joint 'r_joint' with multiplier: 1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726633599] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726635829] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726637857] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726640328] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726642525] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726644854] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726648409] [gz_ros2_control]: Loading joint: r_in_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726651564] [gz_ros2_control]: Joint 'r_in_joint'is mimicking joint 'l_joint' with multiplier: 1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726653918] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726656123] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726658182] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726660628] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726662758] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726664884] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726668736] [gz_ros2_control]: Loading joint: r_out_joint[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726671917] [gz_ros2_control]: Joint 'r_out_joint'is mimicking joint 'l_joint' with multiplier: -1[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726674271] [gz_ros2_control]: 	State:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726676552] [gz_ros2_control]: 		 position[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726678565] [gz_ros2_control]: 			 found initial value: 0.000000[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726681046] [gz_ros2_control]: 		 velocity[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726683174] [gz_ros2_control]: 		 effort[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726686271] [gz_ros2_control]: 	Command:[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726753629] [resource_manager]: Initialize hardware 'IgnitionSystem' [0m
+[ign gazebo-1] [33m[WARN] [1789376298.726774924] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+[ign gazebo-1] Update the <ros2_control> tag and gazebo plugin to
+[ign gazebo-1] <hardware>
+[ign gazebo-1]   <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+[ign gazebo-1] </hardware>
+[ign gazebo-1] <gazebo>
+[ign gazebo-1]   <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+[ign gazebo-1]     ...
+[ign gazebo-1]   </plugin>
+[ign gazebo-1] </gazebo>[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726805586] [resource_manager]: Successful initialization of hardware 'IgnitionSystem'[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726833640] [resource_manager]: 'configure' hardware 'IgnitionSystem' [0m
+[ign gazebo-1] [0m[INFO] [1789376298.726835821] [gz_ros2_control]: System Successfully configured![0m
+[ign gazebo-1] [0m[INFO] [1789376298.726840512] [resource_manager]: Successful 'configure' of hardware 'IgnitionSystem'[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726845773] [resource_manager]: 'activate' hardware 'IgnitionSystem' [0m
+[ign gazebo-1] [0m[INFO] [1789376298.726850291] [resource_manager]: Successful 'activate' of hardware 'IgnitionSystem'[0m
+[ign gazebo-1] [0m[INFO] [1789376298.726853546] [gz_ros2_control]: Loading controller_manager[0m
+[ign gazebo-1] [33m[WARN] [1789376298.774362518] [gz_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.002 s).[0m
+[ign gazebo-1] libEGL warning: Not allowed to force software rendering when API explicitly selects a hardware device.
+[ign gazebo-1] VMware: No 3D enabled (0, Success).
+[ign gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[ign gazebo-1] [0m[INFO] [1789376298.917988494] [controller_manager]: Loading controller 'joint_state_broadcaster'[0m
+[spawner-6] [0m[INFO] [1789376298.931540729] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m[0m
+[ign gazebo-1] [0m[INFO] [1789376298.933106774] [controller_manager]: Configuring controller 'joint_state_broadcaster'[0m
+[ign gazebo-1] [0m[INFO] [1789376298.933222184] [joint_state_broadcaster]: Publishing state interfaces defined in 'joints' and 'interfaces' parameters.[0m
+[ign gazebo-1] [33m[WARN] [1789376298.933242580] [joint_state_broadcaster]: Mapping from 'position' to interface 'position' will not be done, because 'position' is defined in 'interface' parameter.[0m
+[ign gazebo-1] [33m[WARN] [1789376298.933248480] [joint_state_broadcaster]: Mapping from 'velocity' to interface 'velocity' will not be done, because 'velocity' is defined in 'interface' parameter.[0m
+[ign gazebo-1] [33m[WARN] [1789376298.933268219] [joint_state_broadcaster]: Mapping from 'effort' to interface 'effort' will not be done, because 'effort' is defined in 'interface' parameter.[0m
+[spawner-6] [0m[INFO] [1789376299.487718034] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m[0m
+[INFO] [spawner-6]: process has finished cleanly [pid 15963]
+[INFO] [spawner-7]: process started with pid [16030]
+[spawner-7] [0m[INFO] [1789376300.586827108] [spawner_arm_controller]: waiting for service /controller_manager/list_controllers to become available...[0m
+[ign gazebo-1] [0m[INFO] [1789376300.920178438] [controller_manager]: Loading controller 'arm_controller'[0m
+[ign gazebo-1] [33m[WARN] [1789376300.952610589] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.[0m
+[spawner-7] [0m[INFO] [1789376300.957556258] [spawner_arm_controller]: [94mLoaded [1marm_controller[0m[0m
+[ign gazebo-1] [0m[INFO] [1789376300.961480278] [controller_manager]: Configuring controller 'arm_controller'[0m
+[ign gazebo-1] [0m[INFO] [1789376300.961631394] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.[0m
+[ign gazebo-1] [0m[INFO] [1789376300.961649404] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].[0m
+[ign gazebo-1] [0m[INFO] [1789376300.961666822] [arm_controller]: Using 'splines' interpolation method.[0m
+[ign gazebo-1] [0m[INFO] [1789376300.966221005] [arm_controller]: Controller state will be published at 50.00 Hz.[0m
+[ign gazebo-1] [0m[INFO] [1789376300.969838208] [arm_controller]: Action status changes will be monitored at 20.00 Hz.[0m
+[spawner-7] [0m[INFO] [1789376301.005799388] [spawner_arm_controller]: [92mConfigured and activated [1marm_controller[0m[0m
+[INFO] [spawner-7]: process has finished cleanly [pid 16030]
+[INFO] [spawner-8]: process started with pid [16048]
+[spawner-8] [0m[INFO] [1789376301.762256910] [spawner_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...[0m
+[ign gazebo-1] [0m[INFO] [1789376302.850002912] [controller_manager]: Loading controller 'gripper_controller'[0m
+[spawner-8] [0m[INFO] [1789376302.875251778] [spawner_gripper_controller]: [94mLoaded [1mgripper_controller[0m[0m
+[ign gazebo-1] [0m[INFO] [1789376302.878557469] [controller_manager]: Configuring controller 'gripper_controller'[0m
+[ign gazebo-1] [0m[INFO] [1789376302.879923305] [gripper_controller]: configure successful[0m
+[ign gazebo-1] [0m[INFO] [1789376302.891602674] [gripper_controller]: activate successful[0m
+[spawner-8] [0m[INFO] [1789376302.908904303] [spawner_gripper_controller]: [92mConfigured and activated [1mgripper_controller[0m[0m
+[INFO] [spawner-8]: process has finished cleanly [pid 16048]

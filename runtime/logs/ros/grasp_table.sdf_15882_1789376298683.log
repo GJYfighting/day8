@@ -1,0 +1,130 @@
+[INFO] [1789376298.705908846] [gz_ros2_control]: connected to service!! robot_state_publisher asking for robot_description
+[INFO] [1789376298.706856362] [gz_ros2_control]: Received URDF from param server
+[INFO] [1789376298.717909549] [gz_ros2_control]: [gz_ros2_control] Fixed joint ['base_joint'] (Entity='65') is skipped.
+[INFO] [1789376298.726024833] [gz_ros2_control]: The position_proportional_gain has been set to: 0.1
+[INFO] [1789376298.726389228] [gz_ros2_control]: Loading joint: joint1
+[INFO] [1789376298.726410705] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726414859] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726420707] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726425716] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726428652] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726431177] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726433807] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726444317] [gz_ros2_control]: Loading joint: joint2
+[INFO] [1789376298.726447052] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726449313] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726451472] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726454084] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726456497] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726458740] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726460877] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726466105] [gz_ros2_control]: Loading joint: joint3
+[INFO] [1789376298.726468444] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726470610] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726472603] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726475010] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726477158] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726479890] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726482298] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726487063] [gz_ros2_control]: Loading joint: joint4
+[INFO] [1789376298.726489393] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726491523] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726493488] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726496157] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726498237] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726500480] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726502563] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726507914] [gz_ros2_control]: Loading joint: joint5
+[INFO] [1789376298.726510365] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726512500] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726514442] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726516826] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726518969] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726521081] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726523319] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726528822] [gz_ros2_control]: Loading joint: r_joint
+[INFO] [1789376298.726531409] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726533602] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726536464] [gz_ros2_control]: 			 found initial value: 1.300000
+[INFO] [1789376298.726538880] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726541540] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726543663] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726546095] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726548243] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726553635] [gz_ros2_control]: Loading joint: l_joint
+[INFO] [1789376298.726559255] [gz_ros2_control]: Joint 'l_joint'is mimicking joint 'r_joint' with multiplier: -1
+[INFO] [1789376298.726562195] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726564484] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726566442] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726568990] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726571089] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726575322] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726606379] [gz_ros2_control]: Loading joint: l_in_joint
+[INFO] [1789376298.726610337] [gz_ros2_control]: Joint 'l_in_joint'is mimicking joint 'r_joint' with multiplier: -1
+[INFO] [1789376298.726613024] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726615226] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726617439] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726620009] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726622182] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726624457] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726628189] [gz_ros2_control]: Loading joint: l_out_joint
+[INFO] [1789376298.726631234] [gz_ros2_control]: Joint 'l_out_joint'is mimicking joint 'r_joint' with multiplier: 1
+[INFO] [1789376298.726633599] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726635829] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726637857] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726640328] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726642525] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726644854] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726648409] [gz_ros2_control]: Loading joint: r_in_joint
+[INFO] [1789376298.726651564] [gz_ros2_control]: Joint 'r_in_joint'is mimicking joint 'l_joint' with multiplier: 1
+[INFO] [1789376298.726653918] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726656123] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726658182] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726660628] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726662758] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726664884] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726668736] [gz_ros2_control]: Loading joint: r_out_joint
+[INFO] [1789376298.726671917] [gz_ros2_control]: Joint 'r_out_joint'is mimicking joint 'l_joint' with multiplier: -1
+[INFO] [1789376298.726674271] [gz_ros2_control]: 	State:
+[INFO] [1789376298.726676552] [gz_ros2_control]: 		 position
+[INFO] [1789376298.726678565] [gz_ros2_control]: 			 found initial value: 0.000000
+[INFO] [1789376298.726681046] [gz_ros2_control]: 		 velocity
+[INFO] [1789376298.726683174] [gz_ros2_control]: 		 effort
+[INFO] [1789376298.726686271] [gz_ros2_control]: 	Command:
+[INFO] [1789376298.726753629] [resource_manager]: Initialize hardware 'IgnitionSystem' 
+[WARN] [1789376298.726774924] [gz_ros2_control]: The ign_ros2_control plugin got renamed to gz_ros2_control.
+Update the <ros2_control> tag and gazebo plugin to
+<hardware>
+  <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+</hardware>
+<gazebo>
+  <plugin filename="gz_ros2_control-system"name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+    ...
+  </plugin>
+</gazebo>
+[INFO] [1789376298.726805586] [resource_manager]: Successful initialization of hardware 'IgnitionSystem'
+[INFO] [1789376298.726833640] [resource_manager]: 'configure' hardware 'IgnitionSystem' 
+[INFO] [1789376298.726835821] [gz_ros2_control]: System Successfully configured!
+[INFO] [1789376298.726840512] [resource_manager]: Successful 'configure' of hardware 'IgnitionSystem'
+[INFO] [1789376298.726845773] [resource_manager]: 'activate' hardware 'IgnitionSystem' 
+[INFO] [1789376298.726850291] [resource_manager]: Successful 'activate' of hardware 'IgnitionSystem'
+[INFO] [1789376298.726853546] [gz_ros2_control]: Loading controller_manager
+[WARN] [1789376298.774362518] [gz_ros2_control]:  Desired controller update period (0.01 s) is slower than the gazebo simulation period (0.002 s).
+[INFO] [1789376298.917988494] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[INFO] [1789376298.933106774] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[INFO] [1789376298.933222184] [joint_state_broadcaster]: Publishing state interfaces defined in 'joints' and 'interfaces' parameters.
+[WARN] [1789376298.933242580] [joint_state_broadcaster]: Mapping from 'position' to interface 'position' will not be done, because 'position' is defined in 'interface' parameter.
+[WARN] [1789376298.933248480] [joint_state_broadcaster]: Mapping from 'velocity' to interface 'velocity' will not be done, because 'velocity' is defined in 'interface' parameter.
+[WARN] [1789376298.933268219] [joint_state_broadcaster]: Mapping from 'effort' to interface 'effort' will not be done, because 'effort' is defined in 'interface' parameter.
+[INFO] [1789376300.920178438] [controller_manager]: Loading controller 'arm_controller'
+[WARN] [1789376300.952610589] [arm_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[INFO] [1789376300.961480278] [controller_manager]: Configuring controller 'arm_controller'
+[INFO] [1789376300.961631394] [arm_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[INFO] [1789376300.961649404] [arm_controller]: Command interfaces are [position] and state interfaces are [position velocity].
+[INFO] [1789376300.961666822] [arm_controller]: Using 'splines' interpolation method.
+[INFO] [1789376300.966221005] [arm_controller]: Controller state will be published at 50.00 Hz.
+[INFO] [1789376300.969838208] [arm_controller]: Action status changes will be monitored at 20.00 Hz.
+[INFO] [1789376302.850002912] [controller_manager]: Loading controller 'gripper_controller'
+[INFO] [1789376302.878557469] [controller_manager]: Configuring controller 'gripper_controller'
+[INFO] [1789376302.879923305] [gripper_controller]: configure successful
+[INFO] [1789376302.891602674] [gripper_controller]: activate successful

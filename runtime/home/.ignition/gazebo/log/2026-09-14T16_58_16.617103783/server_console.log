@@ -1,0 +1,116 @@
+(2026-09-14T16:58:16.617296387) (2026-09-14T16:58:16.617302849) [Msg] Ignition Gazebo Server v6.17.1
+(2026-09-14T16:58:16.619091333) (2026-09-14T16:58:16.619096518) [Msg] Loading SDF world file[/home/ubuntu/ros2_ws/day8/simulations/robot_gazebo/worlds/grasp_table.sdf].
+(2026-09-14T16:58:16.665166222) (2026-09-14T16:58:16.665175405) [Msg] Serving entity system service on [/entity/system/add]
+(2026-09-14T16:58:16.689109471) (2026-09-14T16:58:16.689116649) [Dbg] [Physics.cc:804] Loaded [ignition::physics::dartsim::Plugin] from library [/usr/lib/x86_64-linux-gnu/ign-physics-5/engine-plugins/libignition-physics-dartsim-plugin.so]
+(2026-09-14T16:58:16.689149586) (2026-09-14T16:58:16.689151487) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::Physics] for entity [1]
+(2026-09-14T16:58:16.691112879) (2026-09-14T16:58:16.691118606) [Msg] Create service on [/world/robot_world/create]
+(2026-09-14T16:58:16.691178371) (2026-09-14T16:58:16.691180817) [Msg] Remove service on [/world/robot_world/remove]
+(2026-09-14T16:58:16.691230708) (2026-09-14T16:58:16.691233112) [Msg] Pose service on [/world/robot_world/set_pose]
+(2026-09-14T16:58:16.691278638) (2026-09-14T16:58:16.691281000) [Msg] Pose service on [/world/robot_world/set_pose_vector]
+(2026-09-14T16:58:16.691350526) (2026-09-14T16:58:16.691352952) [Msg] Light configuration service on [/world/robot_world/light_config]
+(2026-09-14T16:58:16.691457528) (2026-09-14T16:58:16.691460031) [Msg] Physics service on [/world/robot_world/set_physics]
+(2026-09-14T16:58:16.691511377) (2026-09-14T16:58:16.691513736) [Msg] SphericalCoordinates service on [/world/robot_world/set_spherical_coordinates]
+(2026-09-14T16:58:16.691541837) (2026-09-14T16:58:16.691544120) [Msg] Enable collision service on [/world/robot_world/enable_collision]
+(2026-09-14T16:58:16.691573983) (2026-09-14T16:58:16.691576293) [Msg] Disable collision service on [/world/robot_world/disable_collision]
+(2026-09-14T16:58:16.691647977) (2026-09-14T16:58:16.691650396) [Msg] Material service on [/world/robot_world/visual_config]
+(2026-09-14T16:58:16.691734653) (2026-09-14T16:58:16.691739115) [Msg] Material service on [/world/robot_world/wheel_slip]
+(2026-09-14T16:58:16.691754134) (2026-09-14T16:58:16.691755897) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::UserCommands] for entity [1]
+(2026-09-14T16:58:16.693133569) (2026-09-14T16:58:16.693138441) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::SceneBroadcaster] for entity [1]
+(2026-09-14T16:58:16.694743675) (2026-09-14T16:58:16.694748388) [Dbg] [SystemManager.cc:73] Loaded system [gz::sim::systems::Contact] for entity [1]
+(2026-09-14T16:58:16.707133486) (2026-09-14T16:58:16.707141833) [Dbg] [Sensors.cc:506] Configuring Sensors system
+(2026-09-14T16:58:16.707194488) (2026-09-14T16:58:16.707196523) [Dbg] [Sensors.cc:431] SensorsPrivate::Run
+(2026-09-14T16:58:16.707314906) (2026-09-14T16:58:16.707317998) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::Sensors] for entity [1]
+(2026-09-14T16:58:16.708797397) (2026-09-14T16:58:16.708845092) [Dbg] [Sensors.cc:411] SensorsPrivate::RenderThread started
+((2026-09-14T16:58:16.708878366) (2026-09-14T16:58:16.708884025) [Msg] OdometryPublisher publishing odometry on [/day3_v5/block/odometry]
+(2026-09-14T16:58:16.708924260) (2026-09-14T16:58:16.708926813) [Dbg] [Sensors.cc:258] Waiting for init
+(2026-09-14T16:58:16.708948502) (2026-09-14T16:58:16.708950775) [Msg] OdometryPublisher publishing odometry with covariance on [/model/wood_block/odometry_with_covariance]
+(2026-09-14T16:58:16.708971990) (2026-09-14T16:58:16.708974042) [Msg] OdometryPublisher publishing Pose_V (TF) on [/day3_v5/block/odometry_tf]
+(2026-09-14T16:58:16.708984775) (2026-09-14T16:58:16.708986465) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::OdometryPublisher] for entity [14]
+(2026-09-14T16:58:16.709118779) (2026-09-14T16:58:16.709121412) [Msg] Loaded level [3]
+(2026-09-14T16:58:16.709309038) (2026-09-14T16:58:16.709311742) [Msg] Serving world controls on [/world/robot_world/control], [/world/robot_world/control/state] and [/world/robot_world/playback/control]
+(2026-09-14T16:58:16.709377039) (2026-09-14T16:58:16.709379435) [Msg] Serving GUI information on [/world/robot_world/gui/info]
+(2026-09-14T16:58:16.709386648) (2026-09-14T16:58:16.709396828) [Msg] World [robot_world] initialized with [day3_v5_1ms] physics profile.
+(2026-09-14T16:58:16.709466893) (2026-09-14T16:58:16.709469284) [Msg] Serving world SDF generation service on [/world/robot_world/generate_world_sdf]
+(2026-09-14T16:58:16.709519564) (2026-09-14T16:58:16.709521917) [Msg] Serving world names on [/gazebo/worlds]
+(2026-09-14T16:58:16.709558706) (2026-09-14T16:58:16.709560999) [Msg] Resource path add service on [/gazebo/resource_paths/add].
+(2026-09-14T16:58:16.709590056) (2026-09-14T16:58:16.709592344) [Msg] Resource path get service on [/gazebo/resource_paths/get].
+(2026-09-14T16:58:16.709619177) (2026-09-14T16:58:16.709621403) [Msg] Resource path resolve service on [/gazebo/resource_paths/resolve].
+(2026-09-14T16:58:16.709641864) (2026-09-14T16:58:16.709643559) [Msg] Resource paths published on [/gazebo/resource_paths].
+(2026-09-14T16:58:16.709691291) (2026-09-14T16:58:16.709693638) [Msg] Server control service on [/server_control].
+(2026-09-14T16:58:18.618727069) (2026-09-14T16:58:18.618735732) [Msg] Found no publishers on /stats, adding root stats topic
+(2026-09-14T16:58:18.618907469) (2026-09-14T16:58:18.618911333) [Msg] Found no publishers on /clock, adding root clock topic
+(2026-09-14T16:58:18.619000177) (2026-09-14T16:58:18.619003437) [Dbg] [SimulationRunner.cc:501] Creating PostUpdate worker threads: 5
+(2026-09-14T16:58:18.619019080) (2026-09-14T16:58:18.619021625) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (0)
+(2026-09-14T16:58:18.619089803) (2026-09-14T16:58:18.619093058) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (1)
+(2026-09-14T16:58:18.619151309) (2026-09-14T16:58:18.619154543) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (2)
+(2026-09-14T16:58:18.619202875) (2026-09-14T16:58:18.619206009) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (3)
+(2026-09-14T16:58:18.756129582) (2026-09-14T16:58:18.756139097) [Dbg] [SystemManager.cc:73] Loaded system [ign_ros2_control::IgnitionROS2ControlPlugin] for entity [27]
+(2026-09-14T16:58:18.758366340) (2026-09-14T16:58:18.758373379) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::JointStatePublisher] for entity [27]
+(2026-09-14T16:58:18.758474309) (2026-09-14T16:58:18.758477642) [Dbg] [UserCommands.cc:1303] Created entity [27] named [robot]
+(2026-09-14T16:58:18.760754186) (2026-09-14T16:58:18.760761018) [Msg] Contact system publishing on world/robot_world/model/wood_block/link/block_link/sensor/day3_v5_block_contact/contact
+(2026-09-14T16:58:18.760998040) (2026-09-14T16:58:18.761002165) [Msg] Contact system publishing on world/robot_world/model/robot/link/l_out_link/sensor/day3_v5_left_contact/contact
+(2026-09-14T16:58:18.761844513) (2026-09-14T16:58:18.761849105) [Msg] Contact system publishing on world/robot_world/model/robot/link/r_out_link/sensor/day3_v5_right_contact/contact
+(2026-09-14T16:58:18.763561720) (2026-09-14T16:58:18.763568452) [Msg] Using [ode] collision detector
+(2026-09-14T16:58:18.763602630) (2026-09-14T16:58:18.763605690) [Msg] Using [DantzigBoxedLcpSolver] solver.
+(2026-09-14T16:58:18.765669835) (2026-09-14T16:58:18.765675872) [Dbg] [SimulationFeatures.cc:71] Simulation timestep set to: 0.002
+(2026-09-14T16:58:18.766572330) (2026-09-14T16:58:18.766584697) [Dbg] [Sensors.cc:610] Initialization needed
+(2026-09-14T16:58:18.766621452) (2026-09-14T16:58:18.766624428) [Dbg] [Sensors.cc:270] Initializing render context
+(2026-09-14T16:58:18.766701876) (2026-09-14T16:58:18.766705159) [Msg] Loading plugin [ignition-rendering-ogre2]
+(2026-09-14T16:58:18.767583605) (2026-09-14T16:58:18.767589118) [Msg] Serving scene information on [/world/robot_world/scene/info]
+(2026-09-14T16:58:18.767634977) (2026-09-14T16:58:18.767638291) [Msg] Serving graph information on [/world/robot_world/scene/graph]
+(2026-09-14T16:58:18.767736851) (2026-09-14T16:58:18.767739486) [Msg] Serving full state on [/world/robot_world/state]
+(2026-09-14T16:58:18.767771104) (2026-09-14T16:58:18.767773452) [Msg] Serving full state (async) on [/world/robot_world/state_async]
+(2026-09-14T16:58:18.767812475) (2026-09-14T16:58:18.767814930) [Msg] Publishing scene information on [/world/robot_world/scene/info]
+(2026-09-14T16:58:18.767868869) (2026-09-14T16:58:18.767871392) [Msg] Publishing entity deletions on [/world/robot_world/scene/deletion]
+(2026-09-14T16:58:18.767918820) (2026-09-14T16:58:18.767921199) [Msg] Publishing state changes on [/world/robot_world/state]
+(2026-09-14T16:58:18.767968931) (2026-09-14T16:58:18.767971272) [Msg] Publishing pose messages on [/world/robot_world/pose/info]
+(2026-09-14T16:58:18.768018878) (2026-09-14T16:58:18.768021297) [Msg] Publishing dynamic pose messages on [/world/robot_world/dynamic_pose/info]
+(2026-09-14T16:58:18.768381732) (2026-09-14T16:58:18.768389352) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (3)
+(2026-09-14T16:58:18.768448074) (2026-09-14T16:58:18.768451712) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (2)
+(((2026-09-14T16:58:18.768471524) (2026-09-14T16:58:18.768493460) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (0)
+2026-09-14T16:58:18.7684985982026-09-14T16:58:18.768498598) (2026-09-14T16:58:18.768551931) Exiting postupdate worker thread (1)
+(2026-09-14T16:58:18.769202522) (2026-09-14T16:58:18.769207739) [Dbg] [SimulationRunner.cc:501] Creating PostUpdate worker threads: 7
+(2026-09-14T16:58:18.769231188) (2026-09-14T16:58:18.769233648) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (0)
+(2026-09-14T16:58:18.774090036) (2026-09-14T16:58:18.774095395) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (1)
+(2026-09-14T16:58:18.774124943) (2026-09-14T16:58:18.774127478) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (2)
+(2026-09-14T16:58:18.774160673) (2026-09-14T16:58:18.774163095) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (3)
+(2026-09-14T16:58:18.774190998) (2026-09-14T16:58:18.774193407) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (4)
+(2026-09-14T16:58:18.774254690) (2026-09-14T16:58:18.774257116) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (5)
+(2026-09-14T16:58:18.988235245) (2026-09-14T16:58:18.988239550) [Dbg] [RenderUtil.cc:2591] Create scene [scene]
+(2026-09-14T16:58:19.101289976) (2026-09-14T16:58:19.101299836) (2026-09-14T16:58:19.101316000) (2026-09-14T16:58:19.101322495) Rendering Thread initialized
+[Dbg] [Sensors.cc:610] Initialization needed
+(2026-09-14T16:58:19.169442779) (2026-09-14T16:58:19.169450183) [Dbg] [RgbdCameraSensor.cc:219] RGB images for [robot::link4::robot_cam] advertised on [/depth_cam/rgbd/image]
+(2026-09-14T16:58:19.169573270) (2026-09-14T16:58:19.169575908) [Dbg] [RgbdCameraSensor.cc:233] Depth images for [robot::link4::robot_cam] advertised on [/depth_cam/rgbd/depth_image]
+(2026-09-14T16:58:19.169662984) (2026-09-14T16:58:19.169665537) [Dbg] [RgbdCameraSensor.cc:247] Points for [robot::link4::robot_cam] advertised on [/depth_cam/rgbd/points]
+(2026-09-14T16:58:19.169864910) (2026-09-14T16:58:19.169869921) [Dbg] [CameraSensor.cc:705] Camera info for [robot::link4::robot_cam] advertised on [/depth_cam/rgbd/camera_info]
+(2026-09-14T16:59:01.464055772) (2026-09-14T16:59:01.464067630) [Dbg] [UserCommands.cc:1353] Requesting removal of entity [14]
+(2026-09-14T16:59:01.466921660) (2026-09-14T16:59:01.466932429) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (4)
+(2026-09-14T16:59:01.466992523) (2026-09-14T16:59:01.466996632) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (2)
+(2026-09-14T16:59:01.467027551) (2026-09-14T16:59:01.467034370) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (5)
+(2026-09-14T16:59:01.467165747) (2026-09-14T16:59:01.467172173) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (3)
+(2026-09-14T16:59:01.467207766) (2026-09-14T16:59:01.467209839) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (0)
+(2026-09-14T16:59:01.467226170) (2026-09-14T16:59:01.467228079) [Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (1)
+(2026-09-14T16:59:01.467756733) (2026-09-14T16:59:01.467760863) [Dbg] [SimulationRunner.cc:501] Creating PostUpdate worker threads: 6
+(2026-09-14T16:59:01.467769410) (2026-09-14T16:59:01.467771154) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (0)
+(2026-09-14T16:59:01.467793567) (2026-09-14T16:59:01.467795372) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (1)
+(2026-09-14T16:59:01.467807903) (2026-09-14T16:59:01.467809717) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (2)
+(2026-09-14T16:59:01.467830308) (2026-09-14T16:59:01.467832093) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (3)
+(2026-09-14T16:59:01.467866965) (2026-09-14T16:59:01.467869490) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (4)
+(2026-09-14T16:59:01.784423786) (2026-09-14T16:59:01.784430879) [Msg] OdometryPublisher publishing odometry on [/day3_v5/block/odometry]
+(2026-09-14T16:59:01.784468664) (2026-09-14T16:59:01.784471093) [Msg] OdometryPublisher publishing odometry with covariance on [/model/wood_block/odometry_with_covariance]
+(2026-09-14T16:59:01.784510124) (2026-09-14T16:59:01.784512550) [Msg] OdometryPublisher publishing Pose_V (TF) on [/day3_v5/block/odometry_tf]
+(2026-09-14T16:59:01.784523241) (2026-09-14T16:59:01.784525034) [Dbg] [SystemManager.cc:73] Loaded system [ignition::gazebo::systems::OdometryPublisher] for entity [77]
+(2026-09-14T16:59:01.784586893) (2026-09-14T16:59:01.784588944) [Dbg] [UserCommands.cc:1303] Created entity [77] named [wood_block]
+(2026-09-14T16:59:01.788706173) (2026-09-14T16:59:01.788711945) [Msg] Contact system publishing on world/robot_world/model/wood_block/link/block_link/sensor/day3_v5_block_contact/contact
+((2026-09-14T16:59:01.797763980) (2026-09-14T16:59:01.797775540) [Dbg] [SimulationRunner.cc:528] 2026-09-14T16:59:01.797780344Exiting postupdate worker thread (2026-09-14T16:59:01.797780344Exiting postupdate worker thread ((2026-09-14T16:59:01.797780344Exiting postupdate worker thread (((() (2026-09-14T16:59:01.797821772) 2026-09-14T16:59:01.797805667) (2026-09-14T16:59:01.797827769) 0)
+2026-09-14T16:59:01.797815332) (2026-09-14T16:59:01.797884237) [Dbg] [SimulationRunner.cc:528] [Dbg] [SimulationRunner.cc:528] 2026-09-14T16:59:01.797810655) (2026-09-14T16:59:01.797895477) Exiting postupdate worker thread (4)
+Exiting postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (3)
+[Dbg] [SimulationRunner.cc:528] Exiting postupdate worker thread (1)
+(2026-09-14T16:59:01.798243536) (2026-09-14T16:59:01.798248478) [Dbg] [SimulationRunner.cc:501] Creating PostUpdate worker threads: 7
+(2026-09-14T16:59:01.798257499) (2026-09-14T16:59:01.798259328) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (0)
+(2026-09-14T16:59:01.798382082) (2026-09-14T16:59:01.798385045) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (1)
+(2026-09-14T16:59:01.798411802) (2026-09-14T16:59:01.798414262) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (2)
+(2026-09-14T16:59:01.798633260) (2026-09-14T16:59:01.798636316) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (3)
+(2026-09-14T16:59:01.798667942) (2026-09-14T16:59:01.798670471) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (4)
+(2026-09-14T16:59:01.798703536) (2026-09-14T16:59:01.798705332) [Dbg] [SimulationRunner.cc:512] Creating postupdate worker thread (5)

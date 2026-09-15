@@ -1,0 +1,52 @@
+[0m[INFO] [1789307028.423069599] [tf2_echo]: Waiting for transform base_link ->  depth_cam_link: Invalid frame ID "base_link" passed to canTransform argument target_frame - frame does not exist[0m
+At time 441.500000000
+- Translation: [0.048, -0.000, 0.272]
+- Rotation: in Quaternion (xyzw) [0.599, 0.376, -0.376, 0.599]
+- Rotation: in RPY (radian) [1.571, 1.120, -0.000]
+- Rotation: in RPY (degree) [90.000, 64.177, -0.000]
+- Matrix:
+  0.436  0.900 -0.000  0.048
+ -0.000 -0.000 -1.000 -0.000
+ -0.900  0.436  0.000  0.272
+  0.000  0.000  0.000  1.000
+At time 442.400000000
+- Translation: [0.048, -0.000, 0.272]
+- Rotation: in Quaternion (xyzw) [0.599, 0.376, -0.376, 0.599]
+- Rotation: in RPY (radian) [1.571, 1.120, -0.000]
+- Rotation: in RPY (degree) [90.000, 64.177, -0.000]
+- Matrix:
+  0.436  0.900 -0.000  0.048
+ -0.000 -0.000 -1.000 -0.000
+ -0.900  0.436  0.000  0.272
+  0.000  0.000  0.000  1.000
+At time 443.300000000
+- Translation: [0.048, 0.000, 0.272]
+- Rotation: in Quaternion (xyzw) [0.599, 0.376, -0.376, 0.599]
+- Rotation: in RPY (radian) [1.571, 1.120, 0.000]
+- Rotation: in RPY (degree) [90.000, 64.177, 0.000]
+- Matrix:
+  0.436  0.900  0.000  0.048
+  0.000  0.000 -1.000  0.000
+ -0.900  0.436  0.000  0.272
+  0.000  0.000  0.000  1.000
+At time 444.200000000
+- Translation: [0.048, -0.000, 0.272]
+- Rotation: in Quaternion (xyzw) [0.599, 0.376, -0.376, 0.599]
+- Rotation: in RPY (radian) [1.571, 1.120, -0.000]
+- Rotation: in RPY (degree) [90.000, 64.177, -0.000]
+- Matrix:
+  0.436  0.900 -0.000  0.048
+ -0.000 -0.000 -1.000 -0.000
+ -0.900  0.436  0.000  0.272
+  0.000  0.000  0.000  1.000
+At time 445.100000000
+- Translation: [0.048, -0.000, 0.272]
+- Rotation: in Quaternion (xyzw) [0.599, 0.376, -0.376, 0.599]
+- Rotation: in RPY (radian) [1.571, 1.120, -0.000]
+- Rotation: in RPY (degree) [90.000, 64.177, -0.000]
+- Matrix:
+  0.436  0.900 -0.000  0.048
+ -0.000 -0.000 -1.000 -0.000
+ -0.900  0.436  0.000  0.272
+  0.000  0.000  0.000  1.000
+[0m[INFO] [1789307034.065474661] [rclcpp]: signal_handler(SIGINT/SIGTERM)[0m

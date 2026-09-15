@@ -1,0 +1,422 @@
+/**:
+  ros__parameters:
+    robot_description: "<?xml version='1.0' encoding='utf-8'?>\n<robot xmlns:ns0=\"\
+      http://ros.org/wiki/xacro\" name=\"robot\">\n  <link name=\"link1\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"9.55287669839149E-05 0.000953445773182543\
+      \ 0.0181622223429797\" />\n      <mass value=\"0.018996290781889\" />\n    \
+      \  <inertia ixx=\"3.52401713486466E-06\" ixy=\"-9.57766622211234E-11\" ixz=\"\
+      1.77834467690429E-11\" iyy=\"2.92480468671507E-06\" iyz=\"2.27263787135776E-08\"\
+      \ izz=\"2.43231516201483E-06\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0.0 0.0 0.0\" xyz=\"0.0 0.0 0.0535\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK1_GREEN.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_green\">\n        <color rgba=\"0.4 0.9 0.4 1.0\" />\n      </material>\n\
+      \    </visual>\n    <visual>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0.053\"\
+      \ />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK1_BLACK.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n\
+      \    </visual>\n    <collision>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n\
+      \      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK1.STL\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <link name=\"link2\"\
+      >\n    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"0.000156299570425157 -0.000455113699913916\
+      \ 0.0717727028511975\" />\n      <mass value=\"0.0329250074531705\" />\n   \
+      \   <inertia ixx=\"3.91620966174037E-05\" ixy=\"-5.45461883923424E-11\" ixz=\"\
+      -1.84994427464167E-07\" iyy=\"3.08453562297899E-05\" iyz=\"3.5881427402197E-09\"\
+      \ izz=\"1.15081900975983E-05\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link2.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_green\">\n        <color rgba=\"0.4 0.9 0.4 1.0\"\
+      \ />\n      </material>\n    </visual>\n    <collision>\n      <origin rpy=\"\
+      0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link2_collision.stl\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <joint name=\"joint2\"\
+      \ type=\"revolute\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.054048012164686\"\
+      \ />\n    <parent link=\"link1\" />\n    <child link=\"link2\" />\n    <axis\
+      \ xyz=\"0 -1 0\" />\n    <limit effort=\"1000\" lower=\"-2.09\" upper=\"2.09\"\
+      \ velocity=\"10\" />\n  </joint>\n  <link name=\"link3\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0.000128456440925698 -0.000761424622733717\
+      \ 0.071772743785429\" />\n      <mass value=\"0.0329250074463074\" />\n    \
+      \  <inertia ixx=\"3.91621699579612E-05\" ixy=\"-5.40097530558062E-11\" ixz=\"\
+      -1.73786652512013E-07\" iyy=\"3.08451969920239E-05\" iyz=\"3.63874236522223E-09\"\
+      \ izz=\"1.15078234912494E-05\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link3.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_green\">\n        <color rgba=\"0.4 0.9 0.4 1.0\"\
+      \ />\n      </material>\n    </visual>\n    <collision>\n      <origin rpy=\"\
+      0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link3_collision.stl\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <joint name=\"joint3\"\
+      \ type=\"revolute\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.134416446394797\"\
+      \ />\n    <parent link=\"link2\" />\n    <child link=\"link3\" />\n    <axis\
+      \ xyz=\"0 -1 0\" />\n    <limit effort=\"1000\" lower=\"-2.09\" upper=\"2.09\"\
+      \ velocity=\"10\" />\n  </joint>\n  <link name=\"link4\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"-0.000261855576526311 0.000239368359066633\
+      \ 0.0220971301535388\" />\n      <mass value=\"0.00959141779390409\" />\n  \
+      \    <inertia ixx=\"7.94977139591732E-06\" ixy=\"-8.29446018776969E-10\" ixz=\"\
+      5.6880898756802E-08\" iyy=\"4.29063067361656E-06\" iyz=\"-1.84622131688891E-10\"\
+      \ izz=\"5.33833388813501E-06\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link4.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_green\">\n        <color rgba=\"0.4 0.9 0.4 1.0\"\
+      \ />\n      </material>\n    </visual>\n    <collision>\n      <origin rpy=\"\
+      0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link4_collision.stl\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <joint name=\"joint4\"\
+      \ type=\"revolute\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.134444631186569\"\
+      \ />\n    <parent link=\"link3\" />\n    <child link=\"link4\" />\n    <axis\
+      \ xyz=\"0 -1 0\" />\n    <limit effort=\"1000\" lower=\"-2.09\" upper=\"2.09\"\
+      \ velocity=\"10\" />\n  </joint>\n  <link name=\"servo_link2\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0.00829457691057159 0.000114732113040695\
+      \ -0.0125525321145837\" />\n      <mass value=\"0.00701021225113507\" />\n \
+      \     <inertia ixx=\"6.10646998888003E-07\" ixy=\"1.66839713815154E-09\" ixz=\"\
+      -2.07626862362467E-08\" iyy=\"9.477990166652E-07\" iyz=\"5.12927100881908E-09\"\
+      \ izz=\"1.44691449724265E-06\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/servo_link2.STL\" />\n \
+      \     </geometry>\n      <material name=\"jetarm_black\">\n        <color rgba=\"\
+      0.15 0.15 0.15 1.0\" />\n      </material>\n    </visual>\n    <collision>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/servo_link2_collision.stl\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <joint name=\"servo_joint2\"\
+      \ type=\"fixed\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.0544833339503674\"\
+      \ />\n    <parent link=\"link4\" />\n    <child link=\"servo_link2\" />\n  \
+      \  <axis xyz=\"0 0 0\" />\n  </joint>\n  <link name=\"link5\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"-5.40141895711381E-05 -8.30141354428709E-06\
+      \ 0.00351551092860852\" />\n      <mass value=\"0.00101775298619909\" />\n \
+      \     <inertia ixx=\"2.35834256739382E-08\" ixy=\"-1.92177809145012E-12\" ixz=\"\
+      -3.88572739181837E-12\" iyy=\"2.35740360938003E-08\" iyz=\"-1.1228386368903E-13\"\
+      \ izz=\"4.40224050991292E-08\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link5.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15\
+      \ 1.0\" />\n      </material>\n    </visual>\n    <collision>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/link5.STL\" />\n      </geometry>\n\
+      \    </collision>\n  </link>\n  <joint name=\"joint5\" type=\"revolute\">\n\
+      \    <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n    <parent link=\"servo_link2\"\
+      \ />\n    <child link=\"link5\" />\n    <axis xyz=\"0 0 -1\" />\n    <limit\
+      \ effort=\"1000\" lower=\"-2.09\" upper=\"2.09\" velocity=\"10\" />\n  </joint>\n\
+      \  <link name=\"gripper_servo_link\">\n    <inertial>\n      <origin rpy=\"\
+      0 0 0\" xyz=\"0.0145481835889059 -0.00315257290321308 0.0253492053712461\" />\n\
+      \      <mass value=\"0.0174988490314194\" />\n      <inertia ixx=\"4.12615692688456E-06\"\
+      \ ixy=\"-2.75102939068049E-08\" ixz=\"-7.61180742281118E-09\" iyy=\"1.57023365316943E-06\"\
+      \ iyz=\"2.2563082379695E-08\" izz=\"3.2612101868791E-06\" />\n    </inertial>\n\
+      \    <visual>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/gripper_link.STL\"\
+      \ />\n      </geometry>\n      <material name=\"jetarm_black\">\n        <color\
+      \ rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n    </visual>\n    <collision>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/gripper_link_collision.stl\"\
+      \ />\n      </geometry>\n    </collision>\n  </link>\n  <joint name=\"gripper_servo_joint\"\
+      \ type=\"fixed\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.0054388\" />\n    <parent\
+      \ link=\"link5\" />\n    <child link=\"gripper_servo_link\" />\n    <axis xyz=\"\
+      0 0 0\" />\n  </joint>\n  <link name=\"end_effector_link\" />\n  <joint name=\"\
+      end_effector_joint\" type=\"fixed\">\n    <origin rpy=\"0 0 0\" xyz=\"0 0 0.08\"\
+      \ />\n    <parent link=\"link5\" />\n    <child link=\"end_effector_link\" />\n\
+      \  </joint>\n  <joint name=\"joint1\" type=\"revolute\">\n    <origin rpy=\"\
+      0 0 0\" xyz=\"0.0 0.0 0.05\" />\n    <parent link=\"base_link\" />\n    <child\
+      \ link=\"link1\" />\n    <axis xyz=\"0 0 1\" />\n    <limit effort=\"1000\"\
+      \ lower=\"-2.09\" upper=\"2.09\" velocity=\"10\" />\n  </joint>\n  <ns0:property\
+      \ name=\"M_PI\" value=\"3.1415926535897931\" />\n  <link name=\"r_link\">\n\
+      \    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"0.00154652142582958 0.000534112070478834\
+      \ 0.00624030428121536\" />\n      <mass value=\"0.00206265647704866\" />\n \
+      \     <inertia ixx=\"3.97215843669342E-07\" ixy=\"-2.75699120579387E-10\" ixz=\"\
+      -2.19901048536124E-09\" iyy=\"3.22472627342115E-07\" iyz=\"1.07303783544668E-08\"\
+      \ izz=\"7.78708186672131E-08\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/r_link.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15\
+      \ 1.0\" />\n      </material>\n    </visual>\n    <collision>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/r_link.STL\" />\n      </geometry>\n\
+      \    </collision>\n  </link>\n  <joint name=\"r_joint\" type=\"revolute\">\n\
+      \    <origin rpy=\"0 0 0\" xyz=\"-0.0073166 -0.013992 0.027059\" />\n    <parent\
+      \ link=\"gripper_servo_link\" />\n    <child link=\"r_link\" />\n    <axis xyz=\"\
+      0.99996 -0.004699 -0.0070434\" />\n    <limit effort=\"1.50\" lower=\"0\" upper=\"\
+      1.57\" velocity=\"0.10\" />\n    <dynamics damping=\"1.000\" friction=\"0\"\
+      \ />\n  </joint>\n  <link name=\"l_link\">\n    <inertial>\n      <origin rpy=\"\
+      0 0 0\" xyz=\"0.0015384031888858 -0.000403232726847674 0.00579759783012201\"\
+      \ />\n      <mass value=\"0.00218924933187322\" />\n      <inertia ixx=\"4.0534152698165E-07\"\
+      \ ixy=\"3.60077827494503E-10\" ixz=\"-1.99675888093364E-09\" iyy=\"3.31222174181852E-07\"\
+      \ iyz=\"-8.79337758250917E-09\" izz=\"7.74319582642917E-08\" />\n    </inertial>\n\
+      \    <visual>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/gripper/l_link.STL\"\
+      \ />\n      </geometry>\n      <material name=\"jetarm_black\">\n        <color\
+      \ rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n    </visual>\n    <collision>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/gripper/l_link.STL\" />\n\
+      \      </geometry>\n    </collision>\n  </link>\n  <joint name=\"l_joint\" type=\"\
+      revolute\">\n    <origin rpy=\"0 0 0\" xyz=\"-0.0073352 0.013977 0.027057\"\
+      \ />\n    <parent link=\"gripper_servo_link\" />\n    <child link=\"l_link\"\
+      \ />\n    <axis xyz=\"0.99997 0.0055811 -0.0058397\" />\n    <limit effort=\"\
+      1000\" lower=\"-1.57\" upper=\"1.57\" velocity=\"0.35\" />\n    <mimic joint=\"\
+      r_joint\" multiplier=\"-1\" offset=\"0\" />\n    <dynamics damping=\"0.005\"\
+      \ friction=\"0\" />\n  </joint>\n  <link name=\"l_in_link\">\n    <inertial>\n\
+      \      <origin rpy=\"0 0 0\" xyz=\"0.00610191812065245 2.91459132896708E-05\
+      \ 0.0144573768632076\" />\n      <mass value=\"0.000776872870694597\" />\n \
+      \     <inertia ixx=\"9.87455572181138E-08\" ixy=\"5.06340928475727E-12\" ixz=\"\
+      -6.79685646256186E-10\" iyy=\"9.76635148452203E-08\" iyz=\"-6.12115908323794E-12\"\
+      \ izz=\"2.25695364751658E-09\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/l_in_link.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15\
+      \ 1.0\" />\n      </material>\n    </visual>\n    <collision>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/l_in_link.STL\" />\n      </geometry>\n\
+      \    </collision>\n  </link>\n  <joint name=\"l_in_joint\" type=\"revolute\"\
+      >\n    <origin rpy=\"0 0 0\" xyz=\"-0.0071623 0.0049403 0.046019\" />\n    <parent\
+      \ link=\"gripper_servo_link\" />\n    <child link=\"l_in_link\" />\n    <axis\
+      \ xyz=\"0.99996 0.0046983 -0.0070439\" />\n    <limit effort=\"1000\" lower=\"\
+      -1.57\" upper=\"1.57\" velocity=\"0.35\" />\n    <mimic joint=\"r_joint\" multiplier=\"\
+      -1\" offset=\"0\" />\n    <dynamics damping=\"0.005\" friction=\"0\" />\n  </joint>\n\
+      \  <link name=\"l_out_link\">\n    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"\
+      0.00602407836518577 0.0014461936314294 0.00961214041434189\" />\n      <mass\
+      \ value=\"0.00384735908281124\" />\n      <inertia ixx=\"8.77337978935691E-07\"\
+      \ ixy=\"1.36760329013846E-09\" ixz=\"-6.9462127438421E-09\" iyy=\"8.19648792008027E-07\"\
+      \ iyz=\"1.56177294727923E-07\" izz=\"7.0687486597803E-08\" />\n    </inertial>\n\
+      \    <visual>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/gripper/l_out_link.STL\"\
+      \ />\n      </geometry>\n      <material name=\"jetarm_black\">\n        <color\
+      \ rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n    </visual>\n    <collision\
+      \ name=\"l_out_link_box_collision\">\n      <origin rpy=\"0 0 0\" xyz=\"0.006136277\
+      \ 0.003408384 0.006161234\" />\n      <geometry>\n        <box size=\"0.006660189\
+      \ 0.020723153 0.059778098\" />\n      </geometry>\n    </collision>\n  </link>\n\
+      \  <joint name=\"l_out_joint\" type=\"revolute\">\n    <origin rpy=\"0 0 0\"\
+      \ xyz=\"0.00020427 0 0.028999\" />\n    <parent link=\"l_in_link\" />\n    <child\
+      \ link=\"l_out_link\" />\n    <axis xyz=\"0.99996 0.0046983 -0.0070439\" />\n\
+      \    <limit effort=\"1000\" lower=\"-1.57\" upper=\"1.57\" velocity=\"0.35\"\
+      \ />\n    <mimic joint=\"r_joint\" multiplier=\"1\" offset=\"0\" />\n    <dynamics\
+      \ damping=\"0.005\" friction=\"0\" />\n  </joint>\n  <link name=\"r_in_link\"\
+      >\n    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"0.00610191812065006 -2.81924690068705E-05\
+      \ 0.0144573787538957\" />\n      <mass value=\"0.000776872870694522\" />\n \
+      \     <inertia ixx=\"9.87465668171204E-08\" ixy=\"-5.11173808106636E-12\" ixz=\"\
+      -6.79692406191707E-10\" iyy=\"9.7664293636849E-08\" iyz=\"-5.14018800149497E-13\"\
+      \ izz=\"2.25718458778487E-09\" />\n    </inertial>\n    <visual>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/r_in_link.STL\" />\n      </geometry>\n\
+      \      <material name=\"jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15\
+      \ 1.0\" />\n      </material>\n    </visual>\n    <collision>\n      <origin\
+      \ rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n        <mesh filename=\"\
+      file:///home/ubuntu/ros2_ws/day8/meshes/gripper/r_in_link.STL\" />\n      </geometry>\n\
+      \    </collision>\n  </link>\n  <joint name=\"r_in_joint\" type=\"revolute\"\
+      >\n    <origin rpy=\"0 0 0\" xyz=\"-0.0071623 -0.004943 0.046019\" />\n    <parent\
+      \ link=\"gripper_servo_link\" />\n    <child link=\"r_in_link\" />\n    <axis\
+      \ xyz=\"-0.99996 0.0046987 0.0070436\" />\n    <limit effort=\"1000\" lower=\"\
+      -1.57\" upper=\"1.57\" velocity=\"0.35\" />\n    <mimic joint=\"r_joint\" multiplier=\"\
+      -1\" offset=\"0\" />\n    <dynamics damping=\"0.005\" friction=\"0\" />\n  </joint>\n\
+      \  <link name=\"r_out_link\">\n    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"\
+      0.0060622 -0.0014474 0.0096107\" />\n      <mass value=\"0.0038474\" />\n  \
+      \    <inertia ixx=\"8.7734E-07\" ixy=\"-1.2815E-09\" ixz=\"-6.7006E-09\" iyy=\"\
+      8.1957E-07\" iyz=\"-1.5635E-07\" izz=\"7.0761E-08\" />\n    </inertial>\n  \
+      \  <visual>\n      <origin rpy=\"0 0 0\" xyz=\"0 0 0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/gripper/r_out_link.STL\"\
+      \ />\n      </geometry>\n      <material name=\"jetarm_black\">\n        <color\
+      \ rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n    </visual>\n    <collision\
+      \ name=\"r_out_link_box_collision\">\n      <origin rpy=\"0 0 0\" xyz=\"0.006136277\
+      \ -0.003408384 0.006161234\" />\n      <geometry>\n        <box size=\"0.006660189\
+      \ 0.020723153 0.059778098\" />\n      </geometry>\n    </collision>\n  </link>\n\
+      \  <joint name=\"r_out_joint\" type=\"revolute\">\n    <origin rpy=\"0 0 0\"\
+      \ xyz=\"0.00020427 0 0.028999\" />\n    <parent link=\"r_in_link\" />\n    <child\
+      \ link=\"r_out_link\" />\n    <axis xyz=\"-0.99996 0.0046987 0.0070436\" />\n\
+      \    <limit effort=\"1000\" lower=\"-1.57\" upper=\"1.57\" velocity=\"0.35\"\
+      \ />\n    <mimic joint=\"r_joint\" multiplier=\"1\" offset=\"0\" />\n    <dynamics\
+      \ damping=\"0.005\" friction=\"0\" />\n  </joint>\n  <link name=\"camera_housing_link\"\
+      >\n    <inertial>\n      <origin rpy=\"0 0 0\" xyz=\"0.00232981322860787 0.000387137406184821\
+      \ -2.84059740606052E-05\" />\n      <mass value=\"0.015428\" />\n      <inertia\
+      \ ixx=\"1.3945E-06\" ixy=\"-1.5684E-08\" ixz=\"-2.3104E-07\" iyy=\"1.2848E-05\"\
+      \ iyz=\"1.3156E-09\" izz=\"1.361E-05\" />\n    </inertial>\n    <visual>\n \
+      \     <origin rpy=\"3.141592653589793 3.141592653589793 1.5707963267948966\"\
+      \ xyz=\"-0.014475 0 0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_BLACK.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n\
+      \    </visual>\n    <collision>\n      <origin rpy=\"3.141592653589793 3.141592653589793\
+      \ 1.5707963267948966\" xyz=\"-0.014475 0 0\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_BLACK.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n    </collision>\n  </link>\n\
+      \  <joint name=\"camera_housing_joint\" type=\"fixed\">\n    <origin rpy=\"\
+      3.141592653589793 -1.5707963267948966 -1.5707963267948966\" xyz=\"0 0.0 0.014475\"\
+      \ />\n    <parent link=\"link4\" />\n    <child link=\"camera_housing_link\"\
+      \ />\n    <axis xyz=\"0 0 0\" />\n  </joint>\n  <link name=\"depth_cam_frame\"\
+      >\n    <visual>\n      <origin rpy=\"3.141592653589793 3.141592653589793 1.5707963267948966\"\
+      \ xyz=\"-0.014475 0 0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_LINK4_GEMINI_WHITE.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      white\" />\n    </visual>\n  </link>\n  <joint name=\"depth_cam_joint_sim\"\
+      \ type=\"fixed\">\n    <origin xyz=\"0 0 0\" rpy=\"0 0 0\" />\n    <parent link=\"\
+      camera_housing_link\" />\n    <child link=\"depth_cam_frame\" />\n  </joint>\n\
+      \  <material name=\"black\">\n    <color rgba=\"0.3 0.3 0.3 1.0\" />\n  </material>\n\
+      \  <material name=\"blue\">\n    <color rgba=\"0.0 0.0 0.8 1.0\" />\n  </material>\n\
+      \  <material name=\"green\">\n    <color rgba=\"0.3 0.6 0.3 1.0\" />\n  </material>\n\
+      \  <material name=\"gray\">\n    <color rgba=\"0.7 0.7 0.7 1.0\" />\n  </material>\n\
+      \  <material name=\"darkgray\">\n    <color rgba=\"0.3 0.3 0.3 1.0\" />\n  </material>\n\
+      \  <material name=\"red\">\n    <color rgba=\"0.8 0.0 0.0 1.0\" />\n  </material>\n\
+      \  <material name=\"white\">\n    <color rgba=\"1.0 1.0 1.0 1.0\" />\n  </material>\n\
+      \  <material name=\"yellow\">\n    <color rgba=\"0.8 0.8 0.0 1.0\" />\n  </material>\n\
+      \  <link name=\"world\" />\n  <gazebo reference=\"world\">\n    <static>true</static>\n\
+      \  </gazebo>\n  <joint name=\"base_joint\" type=\"fixed\">\n    <parent link=\"\
+      world\" />\n    <child link=\"base_link\" />\n  </joint>\n  <link name=\"base_link\"\
+      >\n    <visual>\n      <origin rpy=\"0.0 0.0 -1.5707963267948966\" xyz=\"0.0\
+      \ 0.0 0.0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_BASE_GREEN.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_green\">\n        <color rgba=\"0.4 0.9 0.4 1.0\" />\n      </material>\n\
+      \    </visual>\n    <collision>\n      <origin rpy=\"0.0 0.0 -1.5707963267948966\"\
+      \ xyz=\"0.0 0.0 0.0\" />\n      <geometry>\n        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_BASE.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n    </collision>\n    <inertial>\n\
+      \      <origin rpy=\"0.0 0.0 -1.5707963267948966\" xyz=\"0.0 0.0 0.0\" />\n\
+      \      <mass value=\"0.1\" />\n      <inertia ixx=\"2.0\" ixy=\"0.0\" ixz=\"\
+      0.0\" iyy=\"2.0\" iyz=\"0.0\" izz=\"2.0\" />\n    </inertial>\n  </link>\n \
+      \ <link name=\"base_balck_link\">\n    <visual>\n      <origin rpy=\"0.0 0.0\
+      \ -1.5707963267948966\" xyz=\"0.0 0.0 0.0\" />\n      <geometry>\n        <mesh\
+      \ filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_BASE_BLACK.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n\
+      \    </visual>\n  </link>\n  <joint name=\"base_balck_joint\" type=\"fixed\"\
+      >\n    <origin rpy=\"0 0 0\" xyz=\"0.0 0.0 0.0\" />\n    <parent link=\"base_link\"\
+      \ />\n    <child link=\"base_balck_link\" />\n    <axis xyz=\"0 0 0\" />\n \
+      \ </joint>\n  <link name=\"base_screen_link\">\n    <visual>\n      <origin\
+      \ rpy=\"0.0 0.0 -1.5707963267948966\" xyz=\"0.0 0.0 0.0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_BASE_SCREEN.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_black\">\n        <color rgba=\"0.15 0.15 0.15 1.0\" />\n      </material>\n\
+      \    </visual>\n  </link>\n  <joint name=\"base_screen_joint\" type=\"fixed\"\
+      >\n    <origin rpy=\"0 0 0\" xyz=\"0.0 0.0 0.0\" />\n    <parent link=\"base_balck_link\"\
+      \ />\n    <child link=\"base_screen_link\" />\n    <axis xyz=\"0 0 0\" />\n\
+      \  </joint>\n  <link name=\"base_white_link\">\n    <visual>\n      <origin\
+      \ rpy=\"0.0 0.0 -1.5707963267948966\" xyz=\"0.0 0.0 0.0\" />\n      <geometry>\n\
+      \        <mesh filename=\"file:///home/ubuntu/ros2_ws/day8/meshes/jetarm_6dof/JetArm_6DOF_BASE_WHITE.STL\"\
+      \ scale=\"0.001 0.001 0.001\" />\n      </geometry>\n      <material name=\"\
+      jetarm_white\">\n        <color rgba=\"0.8 0.8 0.8 1.0\" />\n      </material>\n\
+      \    </visual>\n  </link>\n  <joint name=\"base_white_joint\" type=\"fixed\"\
+      >\n    <origin rpy=\"0 0 0\" xyz=\"0.0 0.0 0.0\" />\n    <parent link=\"base_screen_link\"\
+      \ />\n    <child link=\"base_white_link\" />\n    <axis xyz=\"0 0 0\" />\n \
+      \ </joint>\n  <gazebo reference=\"link1\">\n    <kp>0</kp>\n    <kd>0</kd>\n\
+      \    <mu1>1</mu1>\n    <mu2>1</mu2>\n    <minDepth>0.000</minDepth>\n    <material>Gazebo/Grass</material>\n\
+      \  </gazebo>\n  <gazebo reference=\"link2\">\n    <kp>0</kp>\n    <kd>0</kd>\n\
+      \    <mu1>1</mu1>\n    <mu2>1</mu2>\n    <minDepth>0.000</minDepth>\n    <material>Gazebo/Grass</material>\n\
+      \  </gazebo>\n  <gazebo reference=\"link3\">\n    <kp>0</kp>\n    <kd>0</kd>\n\
+      \    <mu1>1</mu1>\n    <mu2>1</mu2>\n    <minDepth>0.000</minDepth>\n    <material>Gazebo/Grass</material>\n\
+      \  </gazebo>\n  <gazebo reference=\"link4\">\n    <kp>0</kp>\n    <kd>0</kd>\n\
+      \    <mu1>1</mu1>\n    <mu2>1</mu2>\n    <minDepth>0.000</minDepth>\n    <material>Gazebo/Grass</material>\n\
+      \  </gazebo>\n  <gazebo reference=\"link5\">\n    <kp>0</kp>\n    <kd>0</kd>\n\
+      \    <mu1>1</mu1>\n    <mu2>1</mu2>\n    <minDepth>0.000</minDepth>\n    <material>Gazebo/Grass</material>\n\
+      \  </gazebo>\n  <gazebo reference=\"r_link\">\n    <kp>1e15</kp>\n    <kd>1e13</kd>\n\
+      \    <mu1>1.0</mu1>\n    <mu2>1.0</mu2>\n    <minDepth>0.0002</minDepth>\n \
+      \   <material>Gazebo/Black</material>\n  </gazebo>\n  <gazebo reference=\"l_link\"\
+      >\n    <material>Gazebo/Black</material>\n  </gazebo>\n  <gazebo reference=\"\
+      l_in_link\">\n    <material>Gazebo/Black</material>\n  </gazebo>\n  <gazebo\
+      \ reference=\"l_out_link\">\n    <kp>100000</kp>\n    <kd>10</kd>\n    <mu1>6.0</mu1>\n\
+      \    <mu2>6.0</mu2>\n    <minDepth>0.0001</minDepth>\n    <maxVel>0.02</maxVel>\n\
+      \    <material>Gazebo/Black</material>\n    <sensor name=\"day3_v5_left_contact\"\
+      \ type=\"contact\">\n      <always_on>true</always_on>\n      <update_rate>125</update_rate>\n\
+      \      <visualize>false</visualize>\n      <topic>/day3_v5/left_finger/contacts</topic>\n\
+      \      <contact>\n        <collision>l_out_link_box_collision</collision>\n\
+      \      </contact>\n    </sensor>\n  </gazebo>\n  <gazebo reference=\"r_in_link\"\
+      >\n    <material>Gazebo/Black</material>\n  </gazebo>\n  <gazebo reference=\"\
+      r_out_link\">\n    <kp>100000</kp>\n    <kd>10</kd>\n    <mu1>6.0</mu1>\n  \
+      \  <mu2>6.0</mu2>\n    <minDepth>0.0001</minDepth>\n    <maxVel>0.02</maxVel>\n\
+      \    <material>Gazebo/Black</material>\n    <sensor name=\"day3_v5_right_contact\"\
+      \ type=\"contact\">\n      <always_on>true</always_on>\n      <update_rate>125</update_rate>\n\
+      \      <visualize>false</visualize>\n      <topic>/day3_v5/right_finger/contacts</topic>\n\
+      \      <contact>\n        <collision>r_out_link_box_collision</collision>\n\
+      \      </contact>\n    </sensor>\n  </gazebo>\n  <gazebo reference=\"base_link\"\
+      >\n    <material>Gazebo/Black</material>\n  </gazebo>\n  <gazebo reference=\"\
+      gripper_servo_link\">\n    <material>Gazebo/Black</material>\n  </gazebo>\n\
+      \  <transmission name=\"joint1_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"joint1\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"joint1_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <transmission name=\"joint2_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"joint2\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"joint2_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <transmission name=\"joint3_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"joint3\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"joint3_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <transmission name=\"joint4_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"joint4\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"joint4_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <transmission name=\"joint5_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"joint5\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"joint5_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <transmission name=\"r_joint_trans\">\n    <type>transmission_interface/SimpleTransmission</type>\n\
+      \    <joint name=\"r_joint\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \    </joint>\n    <actuator name=\"r_joint_motor\">\n      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>\n\
+      \      <mechanicalReduction>1</mechanicalReduction>\n    </actuator>\n  </transmission>\n\
+      \  <ros2_control name=\"IgnitionSystem\" type=\"system\">\n    <hardware>\n\
+      \      <plugin>ign_ros2_control/IgnitionSystem</plugin>\n    </hardware>\n \
+      \   <joint name=\"joint1\">\n      <command_interface name=\"position\">\n \
+      \       <param name=\"min\">-2.09</param>\n        <param name=\"max\">2.09</param>\n\
+      \      </command_interface>\n      <state_interface name=\"position\">\n   \
+      \     <param name=\"initial_value\">0</param>\n      </state_interface>\n  \
+      \    <state_interface name=\"velocity\" />\n      <state_interface name=\"effort\"\
+      \ />\n    </joint>\n    <joint name=\"joint2\">\n      <command_interface name=\"\
+      position\">\n        <param name=\"min\">-2.09</param>\n        <param name=\"\
+      max\">2.09</param>\n      </command_interface>\n      <state_interface name=\"\
+      position\">\n        <param name=\"initial_value\">0</param>\n      </state_interface>\n\
+      \      <state_interface name=\"velocity\" />\n      <state_interface name=\"\
+      effort\" />\n    </joint>\n    <joint name=\"joint3\">\n      <command_interface\
+      \ name=\"position\">\n        <param name=\"min\">-2.09</param>\n        <param\
+      \ name=\"max\">2.09</param>\n      </command_interface>\n      <state_interface\
+      \ name=\"position\">\n        <param name=\"initial_value\">0</param>\n    \
+      \  </state_interface>\n      <state_interface name=\"velocity\" />\n      <state_interface\
+      \ name=\"effort\" />\n    </joint>\n    <joint name=\"joint4\">\n      <command_interface\
+      \ name=\"position\">\n        <param name=\"min\">-2.09</param>\n        <param\
+      \ name=\"max\">2.09</param>\n      </command_interface>\n      <state_interface\
+      \ name=\"position\">\n        <param name=\"initial_value\">0</param>\n    \
+      \  </state_interface>\n      <state_interface name=\"velocity\" />\n      <state_interface\
+      \ name=\"effort\" />\n    </joint>\n    <joint name=\"joint5\">\n      <command_interface\
+      \ name=\"position\">\n        <param name=\"min\">-2.09</param>\n        <param\
+      \ name=\"max\">2.09</param>\n      </command_interface>\n      <state_interface\
+      \ name=\"position\">\n        <param name=\"initial_value\">0</param>\n    \
+      \  </state_interface>\n      <state_interface name=\"velocity\" />\n      <state_interface\
+      \ name=\"effort\" />\n    </joint>\n    <joint name=\"r_joint\">\n      <command_interface\
+      \ name=\"effort\">\n        <param name=\"min\">-1.50</param>\n        <param\
+      \ name=\"max\">1.50</param>\n      </command_interface>\n      <state_interface\
+      \ name=\"position\">\n        <param name=\"initial_value\">1.30</param>\n \
+      \     </state_interface>\n      <state_interface name=\"velocity\" />\n    \
+      \  <state_interface name=\"effort\">\n        <param name=\"initial_value\"\
+      >0</param>\n      </state_interface>\n    </joint>\n    <joint name=\"l_joint\"\
+      >\n      <param name=\"mimic\">r_joint</param>\n      <param name=\"multiplier\"\
+      >-1</param>\n      <state_interface name=\"position\">\n        <param name=\"\
+      initial_value\">0</param>\n      </state_interface>\n      <state_interface\
+      \ name=\"velocity\" />\n      <state_interface name=\"effort\" />\n    </joint>\n\
+      \    <joint name=\"l_in_joint\">\n      <param name=\"mimic\">r_joint</param>\n\
+      \      <param name=\"multiplier\">-1</param>\n      <state_interface name=\"\
+      position\">\n        <param name=\"initial_value\">0</param>\n      </state_interface>\n\
+      \      <state_interface name=\"velocity\" />\n      <state_interface name=\"\
+      effort\" />\n    </joint>\n    <joint name=\"l_out_joint\">\n      <param name=\"\
+      mimic\">r_joint</param>\n      <param name=\"multiplier\">1</param>\n      <state_interface\
+      \ name=\"position\">\n        <param name=\"initial_value\">0</param>\n    \
+      \  </state_interface>\n      <state_interface name=\"velocity\" />\n      <state_interface\
+      \ name=\"effort\" />\n    </joint>\n    <joint name=\"r_in_joint\">\n      <param\
+      \ name=\"mimic\">l_joint</param>\n      <param name=\"multiplier\">1</param>\n\
+      \      <state_interface name=\"position\">\n        <param name=\"initial_value\"\
+      >0</param>\n      </state_interface>\n      <state_interface name=\"velocity\"\
+      \ />\n      <state_interface name=\"effort\" />\n    </joint>\n    <joint name=\"\
+      r_out_joint\">\n      <param name=\"mimic\">l_joint</param>\n      <param name=\"\
+      multiplier\">-1</param>\n      <state_interface name=\"position\">\n       \
+      \ <param name=\"initial_value\">0</param>\n      </state_interface>\n      <state_interface\
+      \ name=\"velocity\" />\n      <state_interface name=\"effort\" />\n    </joint>\n\
+      \  </ros2_control>\n  <gazebo reference=\"depth_cam_link\">\n    <sensor name=\"\
+      robot_cam\" type=\"rgbd_camera\">\n      <camera>\n        <horizontal_fov>1.047</horizontal_fov>\n\
+      \        <image>\n          <width>320</width>\n          <height>200</height>\n\
+      \        </image>\n        <clip>\n          <near>0.1</near>\n          <far>10</far>\n\
+      \        </clip>\n      </camera>\n      <always_on>1</always_on>\n      <update_rate>15</update_rate>\n\
+      \      <visualize>true</visualize>\n      <topic>/depth_cam/rgbd</topic>\n \
+      \     <enable_metrics>true</enable_metrics>\n    </sensor>\n  </gazebo>\n  <gazebo>\n\
+      \    <plugin filename=\"/opt/ros/humble/share/ign_ros2_control/../../lib/libign_ros2_control-system.so\"\
+      \ name=\"ign_ros2_control::IgnitionROS2ControlPlugin\">\n      <parameters>/home/ubuntu/ros2_ws/day8/simulations/robot_gazebo/config/robot_config.yaml</parameters>\n\
+      \    </plugin>\n    <plugin filename=\"libignition-gazebo-joint-state-publisher-system.so\"\
+      \ name=\"ignition::gazebo::systems::JointStatePublisher\">\n      <topic>joint_states</topic>\n\
+      \    </plugin>\n  </gazebo>\n  <link name=\"camera_calibration_hand\" />\n \
+      \ <joint name=\"camera_calibration_hand_joint\" type=\"fixed\">\n    <parent\
+      \ link=\"link4\" />\n    <child link=\"camera_calibration_hand\" />\n    <origin\
+      \ xyz=\"0 0 0.17145583202\" rpy=\"0 -1.5707963267948966 0\" />\n  </joint>\n\
+      \  <link name=\"depth_cam_optical_frame\" />\n  <joint name=\"depth_cam_optical_joint\"\
+      \ type=\"fixed\">\n    <parent link=\"camera_calibration_hand\" />\n    <child\
+      \ link=\"depth_cam_optical_frame\" />\n    <origin xyz=\"-0.101 0.0 0.045\"\
+      \ rpy=\"-1.5707963267948966 0.0 -1.5707963267948966\" />\n  </joint>\n  <link\
+      \ name=\"depth_cam_link\" />\n  <joint name=\"depth_cam_joint\" type=\"fixed\"\
+      >\n    <parent link=\"depth_cam_optical_frame\" />\n    <child link=\"depth_cam_link\"\
+      \ />\n    <origin xyz=\"0 0 0\" rpy=\"1.5707963267948966 -1.5707963267948966\
+      \ 0.0\" />\n  </joint>\n</robot>"
+    use_sim_time: true

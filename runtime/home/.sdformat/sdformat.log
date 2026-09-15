@@ -1,0 +1,8 @@
+Dbg [parser.cc:954] Converting a deprecated source[/home/ubuntu/ros2_ws/day8/simulations/robot_gazebo/worlds/grasp_table.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:954] Converting a deprecated source[/home/ubuntu/ros2_ws/day8/runtime/wood_block_episode.sdf].
+Dbg [Converter.cc:106] Version[1.6] to Version[1.9]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]

@@ -1,0 +1,6 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/ubuntu/ros2_ws/day8/repair_camera.py:50: UserWarning: Gimbal lock detected. Setting third angle to zero since it is not possible to uniquely determine all angles.
+  [0,0,0],Rotation.from_matrix(optical_to_camera.T).as_euler('xyz'))
+Valid.
+{"status": "PASS", "hand_to_optical": [[0.0, 0.0, 1.0, -0.101], [-1.0, 0.0, 0.0, 0.0], [0.0, -1.0, 0.0, 0.045], [0.0, 0.0, 0.0, 1.0]], "link4_to_camera": [[1.0947644252537633e-47, 2.2204460492503126e-16, -1.0, -0.04500000000000002], [0.0, 1.0, 2.220446049250313e-16, 0.0], [1.0, 0.0, -4.930380657631324e-32, 0.07045583202000001], [0.0, 0.0, 0.0, 1.0]], "calibration_hand_reference_z_m": 0.17145583202, "grasp_tcp_unchanged": true, "actuated_joints_unchanged": true, "sensor_urdf_sdf_consistent": true, "all_sdf_collisions_joints_plugins_preserved": true, "source_commit": "70502c8", "interpretation": "Source hand-eye prior transferred via CAD axes; not a new real-camera calibration."}

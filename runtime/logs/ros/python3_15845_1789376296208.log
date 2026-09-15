@@ -1,0 +1,145 @@
+[INFO] [1789376296.313833311] [perception]: Day 2 perception started: /depth_cam/rgbd/image + /depth_cam/rgbd/depth_image; depth_cam_link -> base_link
+[INFO] [1789376299.183214271] [perception]: CameraInfo: 320x200, fx=277.19, fy=277.19, cx=160.00, cy=100.00
+[INFO] [1789376299.478067525] [perception]: NOT DETECTED
+[INFO] [1789376300.481694826] [perception]: NOT DETECTED
+[INFO] [1789376301.509907707] [perception]: NOT DETECTED
+[INFO] [1789376302.545900662] [perception]: NOT DETECTED
+[INFO] [1789376303.579527373] [perception]: NOT DETECTED
+[INFO] [1789376304.590628340] [perception]: NOT DETECTED
+[INFO] [1789376305.604349169] [perception]: NOT DETECTED
+[INFO] [1789376306.611103082] [perception]: NOT DETECTED
+[INFO] [1789376307.641581961] [perception]: NOT DETECTED
+[INFO] [1789376308.656007305] [perception]: NOT DETECTED
+[INFO] [1789376309.675481303] [perception]: NOT DETECTED
+[INFO] [1789376310.706347694] [perception]: NOT DETECTED
+[INFO] [1789376311.708708548] [perception]: NOT DETECTED
+[INFO] [1789376312.728468165] [perception]: NOT DETECTED
+[INFO] [1789376313.744168882] [perception]: NOT DETECTED
+[INFO] [1789376314.769180017] [perception]: NOT DETECTED
+[INFO] [1789376315.785656022] [perception]: NOT DETECTED
+[INFO] [1789376316.807487827] [perception]: NOT DETECTED
+[INFO] [1789376317.829409387] [perception]: NOT DETECTED
+[INFO] [1789376318.839089811] [perception]: NOT DETECTED
+[INFO] [1789376319.864578993] [perception]: NOT DETECTED
+[INFO] [1789376320.912915386] [perception]: NOT DETECTED
+[INFO] [1789376322.070652359] [perception]: NOT DETECTED
+[INFO] [1789376323.073547415] [perception]: NOT DETECTED
+[INFO] [1789376324.123229868] [perception]: NOT DETECTED
+[INFO] [1789376325.166310790] [perception]: NOT DETECTED
+[INFO] [1789376326.217332307] [perception]: NOT DETECTED
+[INFO] [1789376327.266234990] [perception]: NOT DETECTED
+[INFO] [1789376328.311882987] [perception]: NOT DETECTED
+[INFO] [1789376329.395624174] [perception]: NOT DETECTED
+[INFO] [1789376330.409081706] [perception]: NOT DETECTED
+[INFO] [1789376331.424017312] [perception]: NOT DETECTED
+[INFO] [1789376332.447869886] [perception]: NOT DETECTED
+[INFO] [1789376333.457419410] [perception]: NOT DETECTED
+[INFO] [1789376334.473878572] [perception]: NOT DETECTED
+[INFO] [1789376335.503551216] [perception]: NOT DETECTED
+[INFO] [1789376336.536830502] [perception]: NOT DETECTED
+[INFO] [1789376337.598061886] [perception]: NOT DETECTED
+[INFO] [1789376338.609347045] [perception]: NOT DETECTED
+[INFO] [1789376339.682196143] [perception]: NOT DETECTED
+[INFO] [1789376340.689775066] [perception]: NOT DETECTED
+[INFO] [1789376341.889801828] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.89 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.31 Hz mask_px=1478
+[INFO] [1789376342.954253628] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.26 Hz mask_px=1478
+[INFO] [1789376343.958038631] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.28 Hz mask_px=1478
+[INFO] [1789376345.025984389] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.27 Hz mask_px=1478
+[INFO] [1789376346.065725042] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.28 Hz mask_px=1478
+[INFO] [1789376347.095224596] [perception]: DETECTED pixel=(171,143) depth=0.196 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=-1.4deg sides=(0.030,0.029)m sync_rate=13.29 Hz mask_px=1810
+[INFO] [1789376348.151308577] [perception]: DETECTED pixel=(164,168) depth=0.159 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.030)m sync_rate=13.30 Hz mask_px=3074
+[INFO] [1789376391.828604100] [perception]: DETECTED pixel=(163,173) depth=0.147 m surface=(0.187,-0.012,0.030) m center=(0.187,-0.012,0.015) m conf=0.88 edge=-0.1deg sides=(0.030,0.026)m sync_rate=13.17 Hz mask_px=3044
+[INFO] [1789376392.878223878] [perception]: DETECTED pixel=(170,147) depth=0.191 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=-1.1deg sides=(0.030,0.030)m sync_rate=13.17 Hz mask_px=1917
+[INFO] [1789376393.908892111] [perception]: DETECTED pixel=(174,133) depth=0.218 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=-0.1deg sides=(0.030,0.030)m sync_rate=13.15 Hz mask_px=1511
+[INFO] [1789376394.930124307] [perception]: DETECTED pixel=(175,132) depth=0.220 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=-0.1deg sides=(0.030,0.029)m sync_rate=13.15 Hz mask_px=1518
+[INFO] [1789376395.945074260] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=-0.0deg sides=(0.030,0.029)m sync_rate=13.16 Hz mask_px=1478
+[INFO] [1789376396.984285401] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.18 Hz mask_px=1478
+[INFO] [1789376397.984698544] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.19 Hz mask_px=1478
+[INFO] [1789376399.003314790] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.20 Hz mask_px=1478
+[INFO] [1789376400.045708674] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.21 Hz mask_px=1478
+[INFO] [1789376401.097442413] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.22 Hz mask_px=1478
+[INFO] [1789376402.128146261] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.24 Hz mask_px=1478
+[INFO] [1789376403.198221197] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.24 Hz mask_px=1478
+[INFO] [1789376404.269095597] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.26 Hz mask_px=1478
+[INFO] [1789376405.338417166] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.27 Hz mask_px=1478
+[INFO] [1789376406.346247387] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.28 Hz mask_px=1478
+[INFO] [1789376407.402003601] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.29 Hz mask_px=1478
+[INFO] [1789376408.437815622] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.29 Hz mask_px=1478
+[INFO] [1789376409.478313845] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.30 Hz mask_px=1478
+[INFO] [1789376410.570034231] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.29 Hz mask_px=1478
+[INFO] [1789376411.576175801] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.31 Hz mask_px=1478
+[INFO] [1789376412.624985699] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.31 Hz mask_px=1478
+[INFO] [1789376413.684539698] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.32 Hz mask_px=1478
+[INFO] [1789376414.765528618] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.33 Hz mask_px=1478
+[INFO] [1789376415.824206262] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.33 Hz mask_px=1478
+[INFO] [1789376416.901226293] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.35 Hz mask_px=1478
+[INFO] [1789376417.927742416] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.36 Hz mask_px=1478
+[INFO] [1789376419.016971529] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.37 Hz mask_px=1478
+[INFO] [1789376420.091191169] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.38 Hz mask_px=1478
+[INFO] [1789376421.127056299] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.39 Hz mask_px=1478
+[INFO] [1789376422.207615042] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.41 Hz mask_px=1478
+[INFO] [1789376423.275199536] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.42 Hz mask_px=1478
+[INFO] [1789376424.317604668] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.43 Hz mask_px=1478
+[INFO] [1789376425.398612797] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.44 Hz mask_px=1478
+[INFO] [1789376426.420877310] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.45 Hz mask_px=1478
+[INFO] [1789376427.490431649] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.46 Hz mask_px=1478
+[INFO] [1789376428.560758471] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.47 Hz mask_px=1478
+[INFO] [1789376429.592347534] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.48 Hz mask_px=1478
+[INFO] [1789376430.674044980] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.49 Hz mask_px=1478
+[INFO] [1789376431.741709091] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.50 Hz mask_px=1478
+[INFO] [1789376432.774945250] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.51 Hz mask_px=1478
+[INFO] [1789376433.853682688] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.52 Hz mask_px=1478
+[INFO] [1789376434.901148200] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.53 Hz mask_px=1478
+[INFO] [1789376435.977959903] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.54 Hz mask_px=1478
+[INFO] [1789376437.036614140] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.55 Hz mask_px=1478
+[INFO] [1789376438.068191146] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.56 Hz mask_px=1478
+[INFO] [1789376439.120071208] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.57 Hz mask_px=1478
+[INFO] [1789376440.198847877] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.58 Hz mask_px=1478
+[INFO] [1789376441.229677151] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.58 Hz mask_px=1478
+[INFO] [1789376442.306358620] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.59 Hz mask_px=1478
+[INFO] [1789376443.319355869] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.60 Hz mask_px=1478
+[INFO] [1789376444.394092775] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.61 Hz mask_px=1478
+[INFO] [1789376445.452158884] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.62 Hz mask_px=1478
+[INFO] [1789376446.481657842] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.63 Hz mask_px=1478
+[INFO] [1789376447.552083611] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.64 Hz mask_px=1478
+[INFO] [1789376448.619285151] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.65 Hz mask_px=1478
+[INFO] [1789376449.653421109] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.65 Hz mask_px=1478
+[INFO] [1789376450.760323572] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.66 Hz mask_px=1478
+[INFO] [1789376451.801838785] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.67 Hz mask_px=1478
+[INFO] [1789376452.836707238] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.68 Hz mask_px=1478
+[INFO] [1789376453.893853738] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.69 Hz mask_px=1478
+[INFO] [1789376454.920006609] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.69 Hz mask_px=1478
+[INFO] [1789376455.986095260] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.70 Hz mask_px=1478
+[INFO] [1789376457.070083145] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.71 Hz mask_px=1478
+[INFO] [1789376458.098050351] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.71 Hz mask_px=1478
+[INFO] [1789376459.185393363] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.72 Hz mask_px=1478
+[INFO] [1789376460.207444525] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.73 Hz mask_px=1478
+[INFO] [1789376461.268062408] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.73 Hz mask_px=1478
+[INFO] [1789376462.360257011] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.74 Hz mask_px=1478
+[INFO] [1789376463.377147078] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.75 Hz mask_px=1478
+[INFO] [1789376464.463196231] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.75 Hz mask_px=1478
+[INFO] [1789376465.521652081] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.76 Hz mask_px=1478
+[INFO] [1789376466.564366913] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.77 Hz mask_px=1478
+[INFO] [1789376467.637190077] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.77 Hz mask_px=1478
+[INFO] [1789376468.667870734] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.78 Hz mask_px=1478
+[INFO] [1789376469.727338547] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.79 Hz mask_px=1478
+[INFO] [1789376470.800041139] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.79 Hz mask_px=1478
+[INFO] [1789376471.847605864] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.80 Hz mask_px=1478
+[INFO] [1789376472.919187456] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.80 Hz mask_px=1478
+[INFO] [1789376473.995317311] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.81 Hz mask_px=1478
+[INFO] [1789376475.043788442] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.81 Hz mask_px=1478
+[INFO] [1789376476.105147895] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.82 Hz mask_px=1478
+[INFO] [1789376477.160515690] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.82 Hz mask_px=1478
+[INFO] [1789376478.236957103] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.83 Hz mask_px=1478
+[INFO] [1789376479.246914849] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.83 Hz mask_px=1478
+[INFO] [1789376480.255308240] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.84 Hz mask_px=1478
+[INFO] [1789376481.288045200] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.84 Hz mask_px=1478
+[INFO] [1789376482.307363363] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.85 Hz mask_px=1478
+[INFO] [1789376483.361235930] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.85 Hz mask_px=1478
+[INFO] [1789376484.431126164] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.86 Hz mask_px=1478
+[INFO] [1789376485.467175932] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.86 Hz mask_px=1478
+[INFO] [1789376486.552602368] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.86 Hz mask_px=1478
+[INFO] [1789376487.634892352] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.87 Hz mask_px=1478
+[INFO] [1789376488.659879724] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.87 Hz mask_px=1478
+[INFO] [1789376489.716670178] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.88 Hz mask_px=1478
+[INFO] [1789376490.746719312] [perception]: DETECTED pixel=(175,131) depth=0.222 m surface=(0.185,-0.012,0.030) m center=(0.185,-0.012,0.015) m conf=0.99 edge=0.0deg sides=(0.030,0.029)m sync_rate=13.88 Hz mask_px=1478

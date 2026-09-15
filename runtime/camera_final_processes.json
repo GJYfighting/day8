@@ -1,0 +1,8 @@
+{
+  "stopped": [],
+  "started": {
+    "world": 15843,
+    "moveit": 15844,
+    "perception": 15845
+  }
+}
